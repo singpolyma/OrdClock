@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/widget"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	style="@style/WidgetBackground">
+
+	<TextView  
+		android:id="@+id/day"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:layout_marginTop="20dip"
+		android:gravity="center"
+		android:text="@string/widget_loading"
+		style="@style/Text.Day" />
+
+	<TextView  
+		android:id="@+id/time"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:layout_marginTop="10dip"
+		android:gravity="center"
+		android:text=""
+		style="@style/Text.Time" />
+
+	<TextView  
+		android:id="@+id/utc"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:layout_marginTop="10dip"
+		android:gravity="center"
+		android:text=""
+		style="@style/Text.Time" />
+
+</LinearLayout>

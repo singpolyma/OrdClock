@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<style name="WidgetBackground">
+		<item name="android:background">@drawable/widget_bg</item>
+	</style>
+
+	<style name="Text">
+	</style>
+
+	<style name="Text.Day">
+		<item name="android:textSize">30sp</item>
+		<item name="android:textColor">@android:color/black</item>
+	</style>
+
+	<style name="Text.Time">
+		<item name="android:textSize">40sp</item>
+		<item name="android:textColor">@android:color/black</item>
+	</style>
+
+</resources>
